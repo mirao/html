@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Testing page</title>
+    </head>
+    <body>
+        <style>
+            table#clspn2 td:nth-child(3) {
+                background-color:brown;
+            }
+            tfoot {background-color:aqua;}
+        </style>
+        <table id="clspn2" border="1" align="center" cellspacing="10" cellpadding="10" bgcolor="LightGreen">
+            <caption style="text-align: right; caption-side: bottom"><sup>*Prodeje a jiné malichernosti</sup></caption>
+            <colgroup>
+                <col width="30%" span="2" style="background-color:yellowgreen">
+                <col>
+                <col width="10%" style="background-color:chocolate">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th rowspan="2">Rok</th>
+                    <th colspan="3">Informace o prodeji*</th>
+                </tr>
+                <tr>
+                    <th>Prodáno kusů XY</th>
+                    <th>Předpokládaný</th>
+                    <th>Prodej</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>Celkem</td>
+                    <td>9000</td>
+                    <td colspan="2">8000</td>
+                </tr>
+            </tfoot>
+            <style>
+                .allright {
+                    text-align: right;
+                    border: dotted;
+                    border-width: thick;
+                }
+            </style>
+            <tbody>
+            <tr bgcolor="Red">
+                <td>2001</td>
+                <td class="allright" bgcolor="Yellow">1243</td>
+                <td colspan="2" class="allright" bgcolor="Yellow">1543</td>
+            </tr>
+            <tr>
+                <td height="100">2002</td>
+                <td style="text-align: left; vertical-align:bottom">968</td>
+                <td colspan="2" style="text-align: center">1968</td>
+            </tr>
+            <tr>
+                <td>2003</td>
+                <td align="right">1513</td>
+                <td colspan="2">1613,5</td>
+            </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
