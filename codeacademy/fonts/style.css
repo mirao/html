@@ -34,7 +34,8 @@ p {
   /*font-family: Helvetica;*/
   color: AliceBlue;
   font-family: Roboto, sans-serif;
-  line-height: 1em;
+  font-size: 20px;
+  line-height: 1.7em;
   text-align: left;
   width: 100%;
 }
