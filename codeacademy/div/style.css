@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    color:blue;
+    color: #FFF;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 28px;
@@ -111,8 +111,4 @@ p {
 .partner,
 .prop {
     text-align: center;
-}
-
-.uniq {
-    font-style: italic
 }
